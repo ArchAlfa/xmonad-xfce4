@@ -20,7 +20,10 @@ myClickJustFocuses :: Bool
 myClickJustFocuses = False
 
 myBorderWidth :: Dimension
-myBorderWidth   = 3
+myBorderWidth = 2
+
+mySpacing :: Int
+mySpacing = 4
 
 myWorkspaces :: [String]
 myWorkspaces = ["I","II","III","IV","V","VI","VII","VIII","IX"]
