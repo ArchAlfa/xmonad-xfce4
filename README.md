@@ -1,4 +1,6 @@
-# xmonad-xfce4
+# XMONAD-XFCE4
+https://xfce.org/
+
 https://xmonad.org/
 
 https://hackage.haskell.org/package/xmonad-contrib
