@@ -57,9 +57,6 @@ myKeys =
     -- shiftToNext,     shiftToPrev,     nextScreen, prevScreen,
     -- shiftNextScreen, shiftPrevScreen, toggleWS
 
-    -- Prompts
-    -- , ("M-o", shellPrompt alfaXPConfig)
-
     -- Sound with amixer
     , ("M1-<Down>", spawn "amixer set Master 5%- unmute")    
     , ("M1-<Up>", spawn "amixer set Master 5%+ unmute")    
@@ -71,8 +68,6 @@ myKeys =
     , ("M-S-<Left>", namedScratchpadAction myScratchpads "terminal")
     , ("M-S-<Right>", namedScratchpadAction myScratchpads "webcam")
 
-    -- OnScreen
-     -- , ("M-S-<Right>", windows (viewOnScreen 0 "1"))
     ]
     -- Web prompt
     ++ [ ("M-s " ++ k, S.promptSearchBrowser alfaXPConfig' WS.braveBrowser f) | (k,f) <- WS.searchList ]
