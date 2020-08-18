@@ -31,7 +31,6 @@ alfaXPConfig = def
       , historySize         = 0
       , defaultText         = []
       , showCompletionOnTab = True
-      --, searchPredicate     = S.isPrefixOf
       , alwaysHighlight     = False
       , maxComplRows        = Nothing
       }
